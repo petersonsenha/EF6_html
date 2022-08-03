@@ -60,11 +60,13 @@ body {
 
 .cover-background--blue {
   background-color: #acd5e8;
+  border-radius: 10px;
 }
 
 .background--blue {
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #dee3dc;
+
 }
 
 .background--yellow {
