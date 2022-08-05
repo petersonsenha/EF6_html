@@ -59,7 +59,8 @@ body {
 }
 
 .cover-background--blue {
-  background-color: #acd5e8;
+  /*background-color: #acd5e8;*/
+  background-color: rgb(214,234,243);
   border-radius: 10px;
 }
 
@@ -207,7 +208,7 @@ body {
 
 .paginacao {
   text-align: right;
-  page-break-before: auto;
+  page-break-before: always;
 }
 
 .titulocaixa {
