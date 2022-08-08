@@ -21,9 +21,13 @@
         <item id="chapter6" href="part2-4-lutas.html" media-type="application/html+xml"/>
         <item id="chapter7" href="part2-5-aventuras.html" media-type="application/html+xml"/>
         <item id="chapter8" href="part2-6-avaliacao.html" media-type="application/html+xml"/>
+        <item id="chapter8" href="part2-6-avaliacao.html" media-type="application/html+xml"/>
         <item id="stylesheet" href="styles/style.css" media-type="text/css"/>
+        <item id="stylesheet2" href="styles/slider.css" media-type="text/css"/>
+        <item id="stylesheet3" href="styles/slider.css" media-type="text/css"/>
         <item id="myfont" href="fonts/AvenirLTStd45Book.otf" media-type="application/x-font-opentype"/>
         <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+        
     </manifest>
 
     <spine toc="ncx">
