@@ -315,9 +315,12 @@ li {
 }
 .interacao{
   /*background-color: dimgray;*/
+  transition: opacity 1s ease-out 100ms;
+  transition: transform 1s ease-out 100ms;
 }
 .interacao:hover {
-  opacity: 0.2;
+  /*opacity: 0.2;*/
+  transform: scale(1.5);
 }
 .negrito{
   font-weight: bold;
