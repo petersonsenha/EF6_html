@@ -10,8 +10,11 @@
         <dc:publisher>Terra Sul</dc:publisher>
         <dc:language>pt</dc:language>
         <meta name="calibre:author_link_map" content="{}" />
+        <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+        <meta property="schema:accessibilityFeature">tableOfContents</meta>
+        <meta property="schema:accessibilityAPI">ARIA</meta>
     </metadata>
-
+    
     <manifest>
         <item id="chapter1" href="index.html" media-type="application/html"/>
         <item id="chapter2" href="content/part2-0-brincadeiras.html" media-type="application/html"/>

@@ -1,4 +1,7 @@
 @page {
+  min-width: 2480px;
+  width: 2480px;
+  height: 3508px;
   margin-bottom: 5pt;
   margin-top: 5pt;
   margin-left: 20%;
@@ -23,6 +26,7 @@ body {
   padding-right: 0;
   font-family: "AvenirLTStd45Book";
   position: relative !important;
+  /*max-zoom: 150%!important;*/
 }
 
 @media print {
@@ -109,12 +113,14 @@ body {
 
 .two-blocks-right {
   display: grid;
-  grid-template-columns: 1fr minmax(150px, 15%);
+  gap:10%;
+  grid-template-columns: 1fr minmax(20%, 15%);
 }
 
 .two-blocks-left {
   display: grid;
-  grid-template-columns: minmax(250px, 25%) 1fr;
+  gap:2%;
+  grid-template-columns: minmax(25%, 25%) 1fr;
 }
 
 .justify {
@@ -288,6 +294,13 @@ body {
   align-items: center;
   gap: 20px;
 }
+.d-flex2 {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  align-items: top;
+  gap: 20px;
+}
+
 .container {
   margin: 10px auto;
   width: 800px;
@@ -341,6 +354,27 @@ li {
 .credito{
   font-size: 8px;
 }
+.mapMax{
+  max-width: 100%;
+  max-height: auto;
+}
+/*
+#toc dl{
+  font-family: "AvenirLTStd45Book";
 
+}
+#toc dt{
+  font-family: Arial, Helvetica, sans-serif;
 
+}
+#toc dd{
+  font-family: Arial, Helvetica, sans-serif;
 
+}*/
+#respostas li:before{
+  color: darkviolet;
+}
+
+p{
+  word-break: break-word;
+}
