@@ -1,7 +1,4 @@
 @page {
-  min-width: 2480px;
-  width: 2480px;
-  height: 3508px;
   margin-bottom: 5pt;
   margin-top: 5pt;
   margin-left: 20%;
@@ -26,7 +23,6 @@ body {
   padding-right: 0;
   font-family: "AvenirLTStd45Book";
   position: relative !important;
-  /*max-zoom: 150%!important;*/
 }
 
 @media print {
@@ -113,14 +109,12 @@ body {
 
 .two-blocks-right {
   display: grid;
-  gap:10%;
-  grid-template-columns: 1fr minmax(20%, 15%);
+  grid-template-columns: 1fr minmax(150px, 15%);
 }
 
 .two-blocks-left {
   display: grid;
-  gap:2%;
-  grid-template-columns: minmax(25%, 25%) 1fr;
+  grid-template-columns: minmax(250px, 25%) 1fr;
 }
 
 .justify {
@@ -153,6 +147,52 @@ body {
   margin-right: 0;
   margin-top: 1em;
   text-indent: 1.5em;
+}
+/*Ajustes no Sumario pg 4*/
+
+.item-sumario{
+  text-indent: 0em;
+}
+.sub-item-sumario{
+  text-indent: 1.5em;
+  font-size:13px;
+}
+
+/*Citacao recuo*/
+.citacao-recuo{
+    max-width:600px;
+    margin: 2px 1em 0 auto;
+}
+
+/*Remover Bullet lista de competencias - PG 11*/
+.lista-competencias li{
+  list-style: none;
+}
+/*Ajuste seção de icones - pg13*/
+
+.texto-icone{
+  width:300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.texto-icone img{
+  height: 50px;
+  object-fit: contain;
+}
+
+
+.lista-competencias p{
+  text-indent: 0px;
+}
+
+/*Adicionar borda na tabela de avaliação*/
+
+.borda-tabela-avaliacao td{
+  width:14.28%;
+  border:1px solid rgba(211,211,211,1);
+  padding:5px 10px;;
+  text-align: center;
 }
 
 .calibre2 {
@@ -294,13 +334,6 @@ body {
   align-items: center;
   gap: 20px;
 }
-.d-flex2 {
-  display: grid;
-  grid-template-columns: 49% 49%;
-  align-items: top;
-  gap: 20px;
-}
-
 .container {
   margin: 10px auto;
   width: 800px;
@@ -354,27 +387,6 @@ li {
 .credito{
   font-size: 8px;
 }
-.mapMax{
-  max-width: 100%;
-  max-height: auto;
-}
-/*
-#toc dl{
-  font-family: "AvenirLTStd45Book";
 
-}
-#toc dt{
-  font-family: Arial, Helvetica, sans-serif;
 
-}
-#toc dd{
-  font-family: Arial, Helvetica, sans-serif;
 
-}*/
-#respostas li:before{
-  color: darkviolet;
-}
-
-p{
-  word-break: break-word;
-}
