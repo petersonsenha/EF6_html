@@ -390,3 +390,74 @@ li {
 
 
 
+/*CSS Ajustes*/
+
+/* Alterado tamanho da fonte Page 17 - Gabriel Dias*/
+.fontmaior{
+  font-size: 3em;
+}
+
+.imgtamanho {
+  width: 20vw;
+  height: 20vh;
+}
+.imgtamanho2{
+  width: 30vw;
+  height: 20vh;
+}
+.imgtamanho3{
+  width: 2500px;
+  height: auto;
+}
+
+
+.credito{
+  font-size: 12px;
+}
+.debugar{
+  border: solid 1px red;
+}
+.recuo{
+  margin-left: 30%;
+}
+#quebrarlinha{
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+.contorno-yellow{
+  border: solid 2px yellow;
+  border-radius: 25px;
+}
+.espacamento{
+  padding: 20px;
+}
+.alertaseguranca{
+  width: 8vw;
+  height: 12vh;
+}
+.divflex{
+  display: flex;
+  align-items: center;
+}
+#blue{
+  background-color: rgb(214,234,243);;
+}
+.box2 {
+  padding: 16px;
+  border: 1px solid black;
+}
+.imgtamanho4{
+  width: 40vw;
+  height: 30vh;
+}
+.imgtamanho5{
+  width: 100vw;
+  height: 30vh;
+}
+.textopage55{
+  padding-top: 60px;
+}
+.justificado{
+  text-justify: justify;
+}
