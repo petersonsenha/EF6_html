@@ -392,6 +392,12 @@ li {
 
 
 
+
+
+
+
+
+
 /*CSS Ajustes*/
 
 /* Alterado tamanho da fonte Page 17 - Gabriel Dias*/
@@ -562,4 +568,93 @@ DE AVENTURA*/
 .imgtamanho8{
   width: 400px;
   height: auto;
+}
+
+
+
+/*Ajustes CSS Peterson*/
+
+
+#respostas li:before{
+  color: darkviolet;
+}
+
+p{
+  word-break: break-word;
+}
+
+details{
+  border-radius: 4px;
+  border: solid 1px ;
+  margin: 5px;
+  padding: 10px;
+}
+summary:hover{
+  cursor: pointer;
+}
+
+img.img20{
+  width: 300px;
+  height: 300px;
+}
+.texto52{
+  width: 300px;
+}
+#questão ol{
+  list-style: none;
+}
+#questão li{
+    /*color:red;*/
+    color: #7e432d;
+    list-style-type: ")";
+    margin-left: 2em;
+}
+li {
+  /*color:red;
+  color: #7e432d;
+  /*list-style-type:lower-alpha")";*/
+  list-style-type: "•";
+  
+  margin-left: 2em;
+}
+
+ol.alfaParen {
+	counter-reset: list;
+}
+ol.alfaParen > li {
+	list-style: none;
+	position: relative;
+}
+ol.alfaParen > li:before {
+	counter-increment: list;
+	content: counter(list, lower-alpha) ") ";
+	position: absolute;
+	left: -1.4em;
+  font-weight: BOLD;
+  color: #7e432d;
+}
+ol.numParen {
+	counter-reset: list;
+}
+ol.numParen > li {
+	list-style: none;
+	position: relative;
+}
+ol.numParen > li:before {
+	counter-increment: list;
+	content: counter(list, decimal) ") ";
+	position: absolute;
+	left: -1.4em;
+  font-weight: BOLD;
+  color: #7e432d;
+}
+ul.ponto > li{
+  list-style: none;
+	position: relative;
+}
+ul.ponto > li:before{
+  color: #7e432d;
+  /*list-style-type:lower-alpha")";*/
+  list-style-type: "•";
+  margin-left: 2em;
 }
