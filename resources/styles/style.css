@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: AvenirLTStd45Book;
-  src: url("AvenirLTStd45Book.otf");
+  src: url("../fonts/AvenirLTStd45Book.otf");
 }
 
 html,
@@ -41,17 +41,17 @@ body {
 }
 
 .title--brown--gradient {
-  border-top: #da5138 1px solid;
+  border-top: rgb(218, 81, 56) 1px solid;
   background: rgb(107, 166, 205);
   background: linear-gradient(180deg,
       rgba(107, 166, 205, 1) 0%,
       rgba(255, 255, 255, 1) 100%);
-  color: #7e432d;
+  color: rgb(126, 67, 45);
 }
 
 .page {
   min-height: 100vh;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .pointer {
@@ -66,16 +66,16 @@ body {
 
 .background--blue {
   border-radius: 10px;
-  background-color: #dee3dc;
+  background-color: rgb(222, 227, 220);
 
 }
 
 .background--yellow {
-  background-color: #fef7d4;
+  background-color: rgb(254, 247, 212);
 }
 
 .background--salmon {
-  background-color: #f8d6c7;
+  background-color: rgb(248, 214, 199);
   border-radius: 5px;
   
 }
@@ -98,12 +98,12 @@ body {
 .box {
   margin: 0 160px;
   padding: 16px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 .box--yellow {
   padding: 16px;
-  border: 1px solid yellow;
+  border: 1px solid rgb(255, 255, 0);
   background-color: rgb(255,248,212);
 }
 
@@ -161,6 +161,7 @@ body {
 /*Citacao recuo*/
 .citacao-recuo{
     max-width:600px;
+    font-size:14px;
     margin: 2px 1em 0 auto;
 }
 
@@ -243,13 +244,13 @@ body {
 }
 
 .calibre9 {
-  background-color: #4a91c5;
+  background-color: rgb(74, 145, 197);
   shape-margin: 5%;
   border-radius: 5%;
 }
 
 .respostas {
-  color: darkviolet;
+  color: rgb(148, 0, 211);
 }
 
 .paginacao {
@@ -269,11 +270,12 @@ body {
 }
 
 .blocoreferencia {
-  background-color: #4a91c5;
+  background-color: rgb(74, 145, 197);
   text-align: right;
   padding-right: 0%;
   margin-left: 75px;
   margin-right: 0px;
+  padding:5px;
 }
 
 .horizontal {
@@ -290,7 +292,7 @@ body {
 
 .referenciaparalela {
   text-align: center;
-  color: #7e432d;
+  color: rgb(126, 67, 45);
 }
 
 .paralelo {
@@ -305,23 +307,23 @@ body {
 }
 
 .blocoleituracomplementar {
-  background-color: #4a91c5;
+  background-color: rgb(74, 145, 197);
   border-radius: 1%;
 }
 
 .tituloleituracomplemental {
-  color: #4a91c5;
+  color: rgb(74, 145, 197);
 }
 
 .barralateral {
   text-align: right;
   width: 30rem;
-  background-color: #acd5e8;
+  background-color: rgb(172, 213, 232);
 }
 
 .blocoorganizando {
-  background-color: #f8d6c7;
-  border-color: yellow;
+  background-color: rgb(248, 214, 199);
+  border-color: rgb(255, 255, 0);
 }
 .grid2,
 .grid3 {
@@ -347,7 +349,7 @@ body {
   background:rgb(241, 135, 22);
   display: inline-block;
   border-radius: 10px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   page-break-before: auto;
   text-align: right;
   text-align-last: right;
@@ -355,7 +357,7 @@ body {
 }
 li {
   /*color:red;*/
-  color: #7e432d;
+  color: rgb(126, 67, 45);
   list-style-type: "•";
   margin-left: 2em;
 }
@@ -373,12 +375,12 @@ li {
 }
 .subtitle{
   font-family: scr="../fonts/AvenirLTStd45Book.otf";
-  color: #da5138;
+  color: rgb(218, 81, 56);
 }
 .tittle-red{
   font-family: scr="../fonts/AvenirLTStd45Book.otf";
   
-  color: #da5138;
+  color: rgb(218, 81, 56);
 }
 .top{
   align-items: top;
@@ -415,7 +417,7 @@ li {
   font-size: 12px;
 }
 .debugar{
-  border: solid 1px red;
+  border: solid 1px rgb(255, 0, 0);
 }
 .recuo{
   margin-left: 30%;
@@ -426,7 +428,7 @@ li {
     word-break: break-word;
 }
 .contorno-yellow{
-  border: solid 2px yellow;
+  border: solid 2px rgb(255, 255, 0);
   border-radius: 25px;
 }
 .espacamento{
@@ -445,7 +447,7 @@ li {
 }
 .box2 {
   padding: 16px;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
 }
 .imgtamanho4{
   width: 40vw;
@@ -460,4 +462,73 @@ li {
 }
 .justificado{
   text-justify: justify;
+}
+
+
+/*Ajustes Lutas*/
+
+.credito-slide{
+  position:absolute;
+  top:1px;
+  left:10px;
+}
+
+.paralelo-col1{
+
+  flex-basis:50%;
+  text-align: justify;
+  padding-right:20px;
+  
+}
+
+.paralelo-col1 img{
+  width:100%;
+}
+
+.paralelo-col2{
+
+  flex-basis:50%;
+}
+
+.paralelo-col2 img{
+  width:100%;
+  margin:0!important;
+}
+
+.referenciaparalela-ajuste{
+  margin:0;
+  text-align: left;
+}
+
+/*PRÁTICAS CORPORAIS
+DE AVENTURA*/
+
+.remover-recuo-paragrafo{ 
+  text-indent: 0em;
+}
+
+.box-video{
+  padding:5px;
+  font-size:12px;
+}
+
+.paragrafo-alerta img{
+  float:right;
+}
+.recuo-pequeno{
+  margin-left:15%;
+}
+
+.diminuir-imagem{
+  height:270px;
+  width:400px;
+  object-fit: contain;
+}
+
+.ajuste-legenda{
+  margin:0 !important;
+}
+
+.seta-azul{
+  float:right;
 }
